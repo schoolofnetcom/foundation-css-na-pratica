@@ -1,0 +1,111 @@
+body,
+html {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header {
+    background: #fdfdfd;
+    background: linear-gradient(to bottom, #ffffff 0%, #fefefe 50%, #fdfdfd 100%);
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
+    .top-bar {
+        background: #fdfdfd;
+        background: linear-gradient(to bottom, #ffffff 0%, #fefefe 50%, #fdfdfd 100%);
+        ul {
+            background: #fdfdfd;
+            background: linear-gradient(to bottom, #ffffff 0%, #fefefe 50%, #fdfdfd 100%);
+            .menu-text {
+                color: #253858;
+            }
+            li>a {
+                color: #0057D8;
+            }
+        }
+    }
+    .subheader {
+        padding: 3.5rem 0;
+        h1 {
+            color: #253858;
+        }
+        p {
+            color: #253858;
+        }
+    }
+}
+
+.main {
+    .sponsored {
+        padding: 8rem 0;
+        .box-title {
+            padding: 0 0 5rem 0;
+        }
+        .box-content {
+            i {
+                font-size: 9em;
+                &.purple {
+                    color: #5E4DB7;
+                }
+                &.blue {
+                    color: #054BB3;
+                }
+                &.yellow {
+                    color: #FFBD05;
+                }
+            }
+            h4 {
+                color: #253858;
+                font-weight: 600;
+            }
+            p {
+                color: #253858;
+            }
+        }
+    }
+    .cards {
+        padding: 8rem 0;
+        background: #f4f7f9;
+        .card {
+            .card-section.title {
+                i {
+                    color: #172B4D;
+                    font-size: 3em;
+                }
+            }
+        }
+        h2 {
+            padding: 2em 0 0 0;
+        }
+    }
+    .contact {
+        padding: 8rem 0;
+        background: #fdfdfd;
+        background: linear-gradient(to bottom, #ffffff 0%, #fefefe 50%, #fdfdfd 100%);
+        form {
+            margin: 4em 0 0 0;
+        }
+    }
+}
+
+.footer {
+    background: #EBECF0;
+    padding: 3rem 0;
+    .menu {
+        li>a {
+            i {
+                font-size: 1.3em;
+                color: #253858;
+                &:hover {
+                    color: #054BB3;
+                }
+            }
+        }
+    }
+}
